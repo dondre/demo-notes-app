@@ -13,6 +13,12 @@ export function StorageStack({ stack, app }) {
         },
         primaryIndex: { partitionKey: "userId", sortKey: "noteId" },
     });
+    stack.addOutputs({
+        BucketName: bucket.bucketName,
+        BucketArn: bucket.bucketArn,
+        TableName: table.tableName,
+        TableArn: table.tableArn
+      });
     return {
         table,
         bucket
