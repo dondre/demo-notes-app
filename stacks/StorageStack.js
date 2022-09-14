@@ -15,12 +15,12 @@ export function StorageStack({ stack, app }) {
     });
 
     // Create the DynamoDB table
-    const table = new Table(stack, "Notes", {
+    const table = new Table(stack, "Gifts", {
         fields: {
             userId: "string",
-            noteId: "string",
+            giftId: "string",
         },
-        primaryIndex: { partitionKey: "userId", sortKey: "noteId" },
+        primaryIndex: { partitionKey: "userId", sortKey: "giftId" },
     });
     stack.addOutputs({
         BucketName: bucket.bucketName,

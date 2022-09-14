@@ -7,7 +7,7 @@ npx aws-api-gateway-cli-test \
 --identity-pool-id='us-east-1:24fd63f7-7598-485b-80af-bb559a5cf61c' \
 --invoke-url='https://293e6pbqa8.execute-api.us-east-1.amazonaws.com' \
 --api-gateway-region='us-east-1' \
---path-template='/notes/29059d80-2fea-11ed-8b8c-875b015dae62' \
+--path-template='/gifts/29059d80-2fea-11ed-8b8c-875b015dae62' \
 --method='PUT' \
 --body='{"content":"hello","attachment":"world.jpg"}'
 

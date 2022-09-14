@@ -1,0 +1,1 @@
+(.+)\nCode: (.+)\nTax Profile: (.+)\nRegular -\nScheduled\nHours\n(\w+.\w+) (\w+.\w+) (.+)\nOvertime Hours\n\(Weighted\)\n(\w+.\w+) (\w+.\w+)\s(.+)\nGROSS\s(.+)\nFederal W/H \(S\)\s(.+)\nMedicare\s(.+)\nSocial Security (.+)\nCA State W/H \(S/0\) (.+)\nCaliforniaSDI Tax (.+)\nDirect Deposit Net Check (.+)\nNET PAY (.+)

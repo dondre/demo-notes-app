@@ -12,7 +12,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@notes/core": "./services/core",
+      "@gifts/core": "./services/core",
     },
   },
 });
